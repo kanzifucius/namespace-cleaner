@@ -1,0 +1,8 @@
+apiVersion: v1
+kind: Namespace
+metadata:
+  name: oldnamespace
+  annotations:
+    "namespace-cleaner/delete": "true"
+    "namespace-cleaner/hours": "1"
+
